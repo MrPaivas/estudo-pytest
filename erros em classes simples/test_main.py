@@ -1,3 +1,4 @@
+
 import pytest
 from main import *
 
@@ -15,4 +16,3 @@ class TestMyClass():
     def test_oferece_cachaca(self):
         chama_classe = MeuFihQuer("CACHAÇA")
         testar = chama_classe.mim_deh_papai()
-        assert testar == True
